@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_menu_item_calendar"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        android:title="@string/nav_calendar" />
+
+
+    <group>
+        <item
+            android:id="@+id/nav_menu_item_expired"
+            android:title="@string/nav_expired_memo" />
+
+        <item
+            android:id="@+id/nav_menu_item_list"
+            android:title="@string/nav_list" />
+
+        <item
+            android:id="@+id/nav_menu_item_photos"
+            android:title="@string/nav_photos" />
+
+        <item
+            android:id="@+id/nav_menu_item_sketch"
+            android:title="@string/nav_sketch" />
+
+        <item
+            android:id="@+id/nav_menu_item_specialDay"
+            android:title="@string/nav_special" />
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_menu_item_setting"
+            android:title="@string/nav_setting" />
+
+        <item android:title="@string/nav_about" />
+    </group>
+</menu>

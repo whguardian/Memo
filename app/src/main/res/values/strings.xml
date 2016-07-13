@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Memo</string>
+
+    <!-- ToolBar Menu -->
+    <string name="menu_calendar">calendar</string>
+    <string name="other">other</string>>
+    <!-- NavigationView -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_expired_memo">Expired Memo</string>
+    <string name="nav_list">List</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_sketch">Sketch</string>
+    <string name="nav_special">Special</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_about">About us</string>
+
+
+    <string name="nav_register">Register</string>
+    <string name="nav_set_password">Set Password</string>
+    <string name="nav_compare_password">Set Again</string>
+
+    <!-- CalendarFragment -->
+    <string name="week_Sun">Sun</string>
+    <string name="week_Mon">Mon</string>
+    <string name="week_Tues">Tues</string>
+    <string name="week_Wed">Wed</string>
+    <string name="week_Thur">Thur</string>
+    <string name="week_Fri">Fri</string>
+    <string name="week_Sat">Sat</string>
+    <string name="selected_date">Info about selected date</string>
+
+    <!-- PopupWindow -->
+    <string name="memo">Memo</string>
+    <string name="sketch">Sketch</string>
+    <string name="photo">Photo</string>
+    <string name="special">Special</string>
+    <string name="cancel_pop">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Calendar -->
+    <string name="sub_calendar">Memo</string>
+
+
+    <!-- MemoListFragment -->
+    <string name="menu_item_delete">Delete</string>
+
+    <!-- DatePicker -->
+    <string name="calendar_pick">Pick Calendar</string>
+    <string name="calendar_choose">Choose</string>
+
+    <!-- TimePicker -->
+    <string name="time_pick">Pick Time</string>
+    <string name="time_choose">Choose</string>
+
+    <!-- MemoInfoFragment-->
+    <string name="memo_id_test">Id</string>
+    <string name="memo_edit">Edit</string>
+
+    <!-- memoFragment-->
+    <string name="memo_title">Title</string>
+    <string name="memo_detail">Detail</string>
+    <string name="memo_begin_time">Begin Time</string>
+    <string name="memo_end_time">End Time</string>
+    <string name="memo_all_day">All Day</string>
+    <string name="memo_space_time">Space Time</string>
+    <string name="memo_location">Location</string>
+    <string name="memo_remind">Remind</string>
+    <string name="memo_frequency">Frequency</string>
+    <string name="memo_privacy">Privacy</string>
+    <string name="memo_phone_call">Phone Call</string>
+    <string name="memo_save">Save</string>
+
+    <!-- CameraFragment -->
+    <string name="photo_detail">Detail</string>
+    <string name="photo_save">Save</string>
+
+    <!-- SketchFragment -->
+    <string name="sketch_title">Sketch</string>
+    <string name="sketch_detail">Detail</string>
+    <string name="sketch_mark">Mark</string>
+    <string name="sketch_add_mark">Add Mark</string>
+    <string name="sketch_save">Save</string>
+
+    <!-- SpecialDayFragment -->
+    <string name="special_dialog">Special</string>
+    <string name="special_theme">Theme</string>
+    <string name="special_edit">Detail</string>
+    <string name="special_save">Save</string>
+
+    <!-- Setting Activity , Setting Fragment -->
+    <string name="sub_setting">Setting</string>
+    <string name="sub_landscape">Open landscape</string>
+    <string name="sub_open">open</string>
+    <string name="sub_close">close</string>
+    <string name="sub_clear">Clear</string>
+
+
+</resources>

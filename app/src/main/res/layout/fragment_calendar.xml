@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calendar.CalendarFragment">
+
+    //显示年月
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/calendar_lastMonth"
+            android:text="上个月"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"/>
+
+        <TextView android:id="@+id/calendar_today"
+            android:text="年月显示位置"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"/>
+
+        <TextView android:id="@+id/calendar_nextMonth"
+            android:text="下个月"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"/>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    //显示星期
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <TextView android:text="@string/week_Sun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView android:text="@string/week_Mon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView android:text="@string/week_Tues"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView android:text="@string/week_Wed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView android:text="@string/week_Thur"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView android:text="@string/week_Fri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView android:text="@string/week_Sat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    //日历主题表格
+    <TableLayout android:id="@+id/table_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="36">
+        <include android:layout_weight="1"
+            layout="@layout/table_row_calendar" />
+        <include android:layout_weight="1"
+            layout="@layout/table_row_calendar" />
+        <include android:layout_weight="1"
+            layout="@layout/table_row_calendar" />
+        <include android:layout_weight="1"
+            layout="@layout/table_row_calendar" />
+        <include android:layout_weight="1"
+            layout="@layout/table_row_calendar" />
+        <include android:layout_weight="1"
+            layout="@layout/table_row_calendar" />
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    //选中日期内容
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <TextView android:id="@+id/info_calendar_selected"
+            android:text="@string/selected_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</LinearLayout>
